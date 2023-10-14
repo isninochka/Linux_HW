@@ -1,0 +1,15 @@
+   0 mkdir /opt/isaeva
+   1 cd /opt/isaeva
+   2 touch file.txt
+   3 ls
+   4 echo '#!/bin/bash' >> myfirstbashscript.sh
+   5 ls
+   6 chmod u+x myfirstbashscript.sh
+   7 ls -l
+   8 export USER="Nina"
+   9 echo'date'>>myfirstbashscript.sh
+  10 echo 'date'>>myfirstbashscript.sh
+  11 echo 'echo "hello $USER!"'>>myfirstbashscript.sh
+  12 echo 'pwd'>>myfirstbashscript.sh
+  13 ./myfirstbashscript.sh
+  14 history>>history.txt
