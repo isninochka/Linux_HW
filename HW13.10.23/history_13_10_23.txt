@@ -1,0 +1,4 @@
+   0 nano sleeper.sh
+   1 chmod u+x sleeper.sh
+   2 ./sleeper.sh
+   3 history > history_13_10_23.txt
